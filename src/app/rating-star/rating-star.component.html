@@ -1,0 +1,8 @@
+<div class="stars">
+  <div
+    class="star"
+    *ngFor="let item of starList; let i = index"
+    (click)="setStar(i)"
+    [ngClass]="{ selected: !item }"
+  ></div>
+</div>

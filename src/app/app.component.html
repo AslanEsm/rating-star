@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="col col--direction col--padding">
+    <app-rating-star
+      [itemName]="'instrumental1'"
+      (ratestatusEvent)="getRate($event)"
+    ></app-rating-star>
+  </div>
+</div>
+<div class="row">
+  <div class="col col--direction col--padding">
+    <app-rating-star
+      [itemName]="'instrumental2'"
+      (ratestatusEvent)="getRate($event)"
+    ></app-rating-star>
+  </div>
+</div>

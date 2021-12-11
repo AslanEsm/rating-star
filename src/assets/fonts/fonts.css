@@ -1,0 +1,39 @@
+@import "./roboto/roboto-stylesheet.css";
+
+@font-face {
+  font-family: "kohinoor";
+  src:
+    url("./KohinoorArabic/KohinoorArabic-Semibold.woff2") format("woff2"),
+    url("./KohinoorArabic/KohinoorArabic-Semibold.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "xero-bold";
+  src:
+    url("./XeroSansBold/XeroSansBold.woff2") format("woff2"),
+    url("./XeroSansBold/XeroSansBold.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "xero-black";
+  src: url("./XeroSansBlack/XeroSansBlack.eot");
+  src: url("./XeroSansBlack/XeroSansBlack.eot?#iefix") format("embedded-opentype"),
+    url("./XeroSansBlack/XeroSansBlack.woff2") format("woff2"),
+    url("./XeroSansBlack/XeroSansBlack.woff") format("woff"),
+    url("./XeroSansBlack/XeroSansBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "B Yekan";
+  src: url("./yekan/yekan.eot");
+  src: url("./yekan/yekan.eot?#iefix") format("embedded-opentype"),
+    url("./yekan/yekan.woff2") format("woff2"),
+    url("./yekan/yekan.woff") format("woff"),
+    url("./yekan/yekan.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
